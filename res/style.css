@@ -1,0 +1,300 @@
+@font-face
+{
+	font-family: 'Kanit-Medium';
+	src: url(Kanit-Medium.ttf);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+	font-family: 'Kanit-Medium', Arial;
+	background: #f2f0ef;
+	color: #252525;
+	font-size: 20px;
+    text-align: center;
+}
+
+/* ----------------------------------------------- HEADER */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #feef0e;
+}
+
+header img
+{
+    padding: 10%;
+    max-height: 65px;
+}
+
+.navbar
+{
+    text-align: center;
+}
+
+.navbar ul
+{
+    list-style-type: none;
+}
+
+.navbar li
+{
+    padding: 25px;
+    display: inline;
+}
+
+.navbar a:visited, a:link, a:active
+{
+    text-decoration: none;
+    font-size: 24px;
+    color: #252525;
+}
+
+.navbar a:hover
+{
+    color: #252525;
+    border-bottom: 2px solid #252525;
+    padding-bottom: 2.5px;
+}
+
+/* ----------------------------------------------- FOOTER */
+
+footer 
+{
+    background-color: #252525;
+    color: #feef0e;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer-container
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 30px;
+}
+
+.footer-container h2
+{
+    color: #f2f0ef;
+}
+
+.footer-container ul
+{
+    list-style-type: none;
+}
+
+.footer-container a:visited, a:link, a:active
+{
+    color: #feef0e;
+    font-size: 18px;
+} 
+
+.footer-container a:hover
+{
+    color: #feef0e;
+    border-bottom: 2px solid #feef0e;
+    padding-bottom: 1.2px;
+}
+
+.footer-newsletter
+{
+    max-width: 600px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+.footer-newsletter h2
+{
+    color:#feef0e;
+}
+
+.footer-newsletter p
+{
+    color:#f2f0ef;
+    padding: 5px;
+}
+
+.footer-newsletter input
+{
+    font-family: 'Kanit-Medium', Arial;
+    background-color: transparent;
+    color:#feef0e;
+    border: 2px solid #feef0e;
+    padding: 5px;
+}
+
+.footer-newsletter label
+{
+    font-size: 15px;
+    color:#f2f0ef;
+}
+
+.footer-newsletter button
+{
+    background-color:transparent;
+	border:2px solid #feef0e;
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Kanit-Medium', Arial;
+    color: #feef0e;
+    cursor:pointer;
+}
+
+.footer-newsletter button:hover
+{
+    background-color: #feef0e;
+    color: #252525;
+}
+
+.copyright
+{
+    color:#f2f0ef;
+}
+
+/* ----------------------------------------------- INDEX - TOP ARTICLE */
+
+.top-article-box
+{
+    text-align: center;
+    padding: 30px;
+}
+
+.top-article
+{
+    display: inline-block;
+    width: 65%;
+}
+
+.top-preview 
+{
+    display: flex;
+    text-align: left;
+    border: 2px solid #252525;
+    padding: 15px;
+}
+
+.top-preview img
+{
+    width: 800px;
+}
+
+.top-text 
+{
+    padding-left: 30px;
+}
+
+.top-text h2
+{
+    padding-bottom: 20px;
+}
+
+.top-text p
+{
+    padding-bottom: 20px;
+}
+
+.top-text a:visited, a:link, a:active
+{
+    color: #252525;
+}
+
+.top-text a:hover
+{
+    color: #252525;
+    border-bottom: 2px solid #252525;
+    padding-bottom: 2.5px;
+}
+
+/* ----------------------------------------------- INDEX - SUBSCRIBE */
+
+.subscribe-newsletter
+{
+    max-height: 400px;
+    margin-bottom: 30px;
+    padding: 50px;
+    background-color:#f24437;
+    color:white;
+}
+
+.subscribe-newsletter button
+{
+    background-color:transparent;
+	border:2px solid white;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Kanit-Medium', Arial;
+    color: white;
+    cursor:pointer;
+}
+
+.subscribe-newsletter button:hover
+{
+    background-color: white;
+    color: #f24437;
+}
+
+/* ----------------------------------------------- INDEX - PICKED ARTICLES */
+
+.picked-articles-box
+{
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+}
+
+.today-title
+{
+    text-align: left;
+    font-size: 23px;
+}
+
+.picked-preview
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 2px solid #252525;
+    padding: 15px;
+    display: inline-flex;
+}
+
+.picked-preview img
+{
+    width: 400px;
+}
+
+.picked-preview div
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.picked-preview a:visited, a:link, a:active
+{
+    color: #252525;
+}
+
+.picked-preview div h2:hover
+{
+    color: #252525;
+    border-bottom: 2px solid #252525;
+    padding-bottom: 2px;
+}

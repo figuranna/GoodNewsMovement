@@ -1,0 +1,4 @@
+Third article;res/img/news3.jpg;Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ad ut a id non accusamus laborum vero quasi? Ratione, atque?;
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut quae numquam. Veniam modi aperiam voluptate architecto quod eligendi, magnam soluta quia reprehenderit assumenda esse odio tenetur velit, enim in ex eaque. Quos, qui fugit aspernatur accusantium harum maxime reiciendis culpa eos corrupti explicabo voluptates excepturi est, facilis praesentium amet!</p>
+<h2>Lorem ipsum dolor sit amet consectetur</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ut quae numquam. Veniam modi aperiam voluptate architecto quod eligendi, magnam soluta quia reprehenderit assumenda esse odio tenetur velit, enim in ex eaque. Quos, qui fugit aspernatur accusantium harum maxime reiciendis culpa eos corrupti explicabo voluptates excepturi est, facilis praesentium amet!</p>
