@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="" ><img src="res/img/logo.png"></a>
+            <a href=""><img src="res/img/logo.png"></a>
         </div>
         <nav class="navbar">
             <ul>
@@ -22,6 +22,21 @@
         </nav>
     </header>
 
-    <main> 
+    <div class="quote">
+        <?php
+        $quotes = [
+            ['text' => "Lorem ipsum dolor sit amet."],
+            ['text' => "Lorem ipsum dolor sit amet consectetur."],
+            ['text' => "Lorem ipsum dolor sit."]
+        ];
 
-    <!-- Main code goes on from here -->
+        $r = rand(0, count($quotes) - 1);
+        $quote = $quotes[$r];
+
+        echo '<h1>' . $quote['text'] . '</h1>';
+        ?>
+    </div>
+
+    <main>
+
+        <!-- Main code goes on from here -->
