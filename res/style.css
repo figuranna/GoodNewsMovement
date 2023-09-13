@@ -98,13 +98,26 @@ footer
     list-style-type: none;
 }
 
-.footer-container a:visited, a:link, a:active
+.footer-nav a:visited, a:link, a:active
 {
     color: #feef0e;
     font-size: 18px;
 } 
 
-.footer-container a:hover
+.footer-follow a:visited, a:link, a:active
+{
+    color: #feef0e;
+    font-size: 18px;
+} 
+
+.footer-nav a:hover
+{
+    color: #feef0e;
+    border-bottom: 2px solid #feef0e;
+    padding-bottom: 1.2px;
+}
+
+.footer-follow a:hover
 {
     color: #feef0e;
     border-bottom: 2px solid #feef0e;
@@ -191,7 +204,7 @@ footer
 
 .top-preview img
 {
-    width: 800px;
+    width: 650px;
 }
 
 .top-text 
@@ -296,5 +309,100 @@ footer
 {
     color: #252525;
     border-bottom: 2px solid #252525;
-    padding-bottom: 2px;
+}
+
+/* ----------------------------------------------- NEWSLETTER */
+
+.newsletter-box
+{
+    margin: 30px;
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+    border: 3px dashed  #252525;
+    background-color: #feef0e;
+}
+
+.newsletter-title h2
+{
+    padding: 20px;
+} 
+
+.newsletter-title p
+{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.newsletter-box input{
+    font-family: 'Kanit-Medium', Arial;
+    background-color: transparent;
+    color: #252525;
+    border: 2.5px solid #252525;
+    padding: 5px;
+    margin: 7px;
+}
+
+.newsletter-box button{
+    background-color:transparent;
+	border:2.5px solid #252525;
+    margin: 10px;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Kanit-Medium', Arial;
+    color: #252525;
+    cursor:pointer;
+}
+
+.newsletter-box button:hover
+{
+    background-color: #252525;
+    color: #feef0e;
+}
+
+/* ----------------------------------------------- NEWS PAGE */
+
+.goodnews-box {
+    padding: 20px;
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+}
+
+.goodnews-title
+{
+    text-align: left;
+    font-size: 33px;
+}
+
+.goodnews-preview
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 2px solid #252525;
+    padding: 15px;
+    display: inline-flex;
+}
+
+.goodnews-box img {
+    width: 400px;
+}
+
+.goodnews-preview div
+{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.goodnews-preview a:visited, a:link, a:active
+{
+    color: #252525;
+}
+
+.goodnews-preview div h2:hover
+{
+    color: #252525;
+    border-bottom: 2px solid #252525;
 }

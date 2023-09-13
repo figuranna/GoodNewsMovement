@@ -26,8 +26,10 @@
 </div>
 
 <div class="subscribe-newsletter">
-    <h2 class="subscribe-newsletter-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
-    <button name="subscribe-newsletter-link" id="subscribe-newsletter-link" class="button-subscribe-ad">Subscribe to Good News Movement's newsletter</button>
+    <form action="newsletter.php">
+        <h2 class="subscribe-newsletter-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+        <button name="subscribe-newsletter-link" onclick="newsletter.php" id="subscribe-newsletter-link" class="button-subscribe-ad">Subscribe to Good News Movement's newsletter</button>
+    </form>
 </div>
 
 <div class="picked-articles-box">
