@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="logo">
-            <a href="index.php"><img src="res/img/logo.png"></a>
+            <a href="" ><img src="res/img/logo.png"></a>
         </div>
         <nav class="navbar">
             <ul>

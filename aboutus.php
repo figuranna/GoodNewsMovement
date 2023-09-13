@@ -1,7 +1,6 @@
 <?php include "include/header.php"; ?>
 
-        <div class="aboutus-container">
-                    <div class="about">
+        <div class="aboutus-box">
 <?php 
         $file = "content/aboutus.txt";
         $aboutus = file_get_contents($file);
@@ -14,7 +13,14 @@
                         <p>'.$description.'</p>
                 </div>';
 ?>
-                    </div>
+        </div>
+
+        <div class="aboutus-box">
+            <div class="aboutus-text">
+                <h1>The Team</h1>
+                <img src="res/img/team.jpg" alt="Explain the image">
+                <img src="res/img/team.jpg" alt="Explain the image">
+            </div>
         </div>
 
 <?php include "include/footer.php"; ?>

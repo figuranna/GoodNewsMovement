@@ -406,3 +406,35 @@ footer
     color: #252525;
     border-bottom: 2px solid #252525;
 }
+
+/* ----------------------------------------------- ABOUT US PAGE */
+
+.aboutus-box
+{
+    margin: 30px;
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+    border: 3px dashed  #252525;
+    background-color: #feef0e;
+}
+
+.aboutus-box h1 
+{
+    padding: 20px;
+}
+
+.aboutus-box p 
+{
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.aboutus-box img 
+{
+    margin: 20px;
+    margin-top: -10px;
+    border: 2px solid #252525;
+    width: 300px;
+}
