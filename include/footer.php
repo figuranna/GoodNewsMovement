@@ -39,7 +39,6 @@
             <p>&copy; Copyright 2023</p>
         </div>
     </footer>
-
+    <script type="text/javascript" src="scripts.js"></script>
     </body>
-
-    </html>
+</html>

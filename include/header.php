@@ -12,8 +12,8 @@
 
 <body>
     <header>
-        <div class="logo">
-            <a href=""><img src="res/img/logo.png"></a>
+        <div class="logo" onclick="toggleQuoteBox()">
+            <img src="res/img/logo.png">
         </div>
         <nav class="navbar">
             <ul>
@@ -22,7 +22,7 @@
         </nav>
     </header>
 
-    <div class="quote">
+    <div class="quote" id="quote" >
         <?php
         $quotes = [
             ['text' => "Lorem ipsum dolor sit amet."],

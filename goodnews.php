@@ -48,11 +48,11 @@
             $content = $article[3];
 
             echo '<h1>' . $title . '</h1>
-                    <article>
-                        <h2 class="lead">' . $intro . '</h2>
-                        <img src="' . $image . '" alt="Explain the image">
-                            ' . $content . '
-                        </article>';
+                    <div class="articles-full">
+                            <p>' . $intro . '</p>
+                            <img src="' . $image . '" alt="Explain the image">
+                            <p>' . $content . '</p>
+                    </div>';
         } else {
             echo '<h1>Sorry, but this article does not exist.</h1>';
         }
