@@ -17,7 +17,7 @@
         <input type="email" name="email" placeholder="joemama@example.com" id="inputEmail" maxlength="256">
     </div>
     <div class="newsletter-subbutton">
-        <button name="sendEmail">Subscribe</button>
+        <button name="sendEmail" onclick="subscriptionDone()">Subscribe</button>
     </div>
 
 </div>

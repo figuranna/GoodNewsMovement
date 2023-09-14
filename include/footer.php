@@ -31,7 +31,7 @@
                     <label for="weekly-news">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, quisquam aperiam et itaque repellat fugiat!</label>
                 </div>
                 <div>
-                    <button name="ssubmit" id="ssubmit" class="button-subscribe">Subscribe</button>
+                    <button name="ssubmit" id="ssubmit" class="button-subscribe" onclick="subscriptionDone()">Subscribe</button>
                 </div>
             </div>
         </div>
